@@ -22,9 +22,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "start-backend": "cd ai_backend && cd env && cd Scripts && flask run --port 5000 ",
-    "build": "react-scripts build",
+    "start": "node init && react-scripts start",
+    "start-backend": "node init && cd ai_backend && cd env && cd Scripts && flask run --port 5000 ",
+    "build": "node init && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
